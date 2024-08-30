@@ -141,7 +141,7 @@ const menus: IMenu[] = [
       ></div>
     </div>
 
-    <main class="w-full bg-[#0b1d26] flex flex-col px-4 relative z-50 gap-48 lg:gap-64 my-40">
+    <main class="w-full bg-[#0b1d26] flex flex-col px-4 relative z-50 gap-48 lg:gap-64 pb-40 mt-40">
       <div
         class="flex flex-col-reverse items-center lg:items-start justify-between lg:gap-20 lg:flex-row mx-10 lg:mx-20"
       >
