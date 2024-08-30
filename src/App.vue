@@ -65,7 +65,19 @@ const menus: IMenu[] = [
           </li>
         </ul>
       </nav>
-      <div>github</div>
+      <div>
+        <a
+          href="https://github.com/Miguel-Domingos/MNTN"
+          class="cursor-pointer text-lg font-bold opacity-50 hover:opacity-100 text-gray-950 transition"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+            <path
+              fill="currentColor"
+              d="M12 2A10 10 0 0 0 2 12c0 4.42 2.87 8.17 6.84 9.5c.5.08.66-.23.66-.5v-1.69c-2.77.6-3.36-1.34-3.36-1.34c-.46-1.16-1.11-1.47-1.11-1.47c-.91-.62.07-.6.07-.6c1 .07 1.53 1.03 1.53 1.03c.87 1.52 2.34 1.07 2.91.83c.09-.65.35-1.09.63-1.34c-2.22-.25-4.55-1.11-4.55-4.92c0-1.11.38-2 1.03-2.71c-.1-.25-.45-1.29.1-2.64c0 0 .84-.27 2.75 1.02c.79-.22 1.65-.33 2.5-.33s1.71.11 2.5.33c1.91-1.29 2.75-1.02 2.75-1.02c.55 1.35.2 2.39.1 2.64c.65.71 1.03 1.6 1.03 2.71c0 3.82-2.34 4.66-4.57 4.91c.36.31.69.92.69 1.85V21c0 .27.16.59.67.5C19.14 20.16 22 16.42 22 12A10 10 0 0 0 12 2"
+            />
+          </svg>
+        </a>
+      </div>
     </header>
     <div class="relative w-full h-full">
       <img
@@ -103,8 +115,16 @@ const menus: IMenu[] = [
               <span> Mountains and beyond! </span>
             </h1>
 
-            <div class="text-white text-center md:text-left">
-              <span class="text-lg font-bold">scroll down</span>
+            <div class="text-white flex justify-center md:justify-start gap-2 text-lg font-bold">
+              <span>scroll down </span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 20 20">
+                <path
+                  fill="currentColor"
+                  fill-rule="evenodd"
+                  d="M10 2a.75.75 0 0 1 .75.75v12.59l1.95-2.1a.75.75 0 1 1 1.1 1.02l-3.25 3.5a.75.75 0 0 1-1.1 0l-3.25-3.5a.75.75 0 1 1 1.1-1.02l1.95 2.1V2.75A.75.75 0 0 1 10 2"
+                  clip-rule="evenodd"
+                />
+              </svg>
             </div>
           </div>
         </div>
@@ -133,7 +153,9 @@ const menus: IMenu[] = [
             <div class="bg-[#FBD784] h-0.5 w-14 md:block hidden"></div>
             <span class="text-lg font-semibold uppercase">Get Started</span>
           </div>
-          <h2 class="font-semibold text-white text-center text-3xl md:text-4xl lg:text-6xl">
+          <h2
+            class="font-semibold text-white md:text-left text-center text-3xl md:text-4xl lg:text-6xl"
+          >
             What level of hiker are you?
           </h2>
 
@@ -144,7 +166,18 @@ const menus: IMenu[] = [
             you – novice, moderate, advanced moderate, expert, or expert backpacker?
           </span>
 
-          <span class="font-semibold text-lg text-[#FBD784]">read more</span>
+          <div class="flex gap-2 font-semibold text-lg text-[#FBD784] cursor-pointer">
+            <span class="">read more</span>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 20 20">
+              <path
+                fill="currentColor"
+                fill-rule="evenodd"
+                d="M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
         </div>
         <div class="w-full max-w-lg">
           <img class="w-full object-cover" src="./assets/01.png" alt="" srcset="" />
@@ -162,7 +195,9 @@ const menus: IMenu[] = [
             <div class="bg-[#FBD784] h-0.5 w-14 md:block hidden"></div>
             <span class="text-lg font-semibold uppercase">Hiking </span>
           </div>
-          <h2 class="font-semibold text-center text-3xl md:text-4xl lg:text-6xl text-white">
+          <h2
+            class="font-semibold md:text-left text-center text-3xl md:text-4xl lg:text-6xl text-white"
+          >
             Picking the right Hiking Gear!
           </h2>
 
@@ -173,7 +208,18 @@ const menus: IMenu[] = [
             get heavy and chafe wif they get sweaty or wet.</span
           >
 
-          <span class="font-semibold text-lg text-[#FBD784]">read more</span>
+          <div class="flex gap-2 font-semibold text-lg text-[#FBD784] cursor-pointer">
+            <span class="">read more</span>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 20 20">
+              <path
+                fill="currentColor"
+                fill-rule="evenodd"
+                d="M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
         </div>
         <div class="w-full max-w-lg">
           <img class="w-full object-cover" src="./assets/02.png" alt="" srcset="" />
@@ -191,7 +237,9 @@ const menus: IMenu[] = [
             <div class="bg-[#FBD784] h-0.5 w-14 md:block hidden"></div>
             <span class="text-lg font-semibold uppercase">where you go is the key</span>
           </div>
-          <h2 class="text-center font-semibold text-3xl md:text-4xl lg:text-6xl text-white">
+          <h2
+            class="md:text-left text-center font-semibold text-3xl md:text-4xl lg:text-6xl text-white"
+          >
             Understand Your Map & Timing
           </h2>
 
@@ -202,7 +250,18 @@ const menus: IMenu[] = [
             that say, in a mile, I make a right turn at the junction..</span
           >
 
-          <span class="font-semibold text-lg text-[#FBD784]">read more</span>
+          <div class="flex gap-2 font-semibold text-lg text-[#FBD784] cursor-pointer">
+            <span class="">read more</span>
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 20 20">
+              <path
+                fill="currentColor"
+                fill-rule="evenodd"
+                d="M2 10a.75.75 0 0 1 .75-.75h12.59l-2.1-1.95a.75.75 0 1 1 1.02-1.1l3.5 3.25a.75.75 0 0 1 0 1.1l-3.5 3.25a.75.75 0 1 1-1.02-1.1l2.1-1.95H2.75A.75.75 0 0 1 2 10"
+                clip-rule="evenodd"
+              />
+            </svg>
+          </div>
         </div>
         <div class="w-full max-w-lg">
           <img class="w-full object-cover" src="./assets/03.png" alt="" srcset="" />
@@ -275,10 +334,10 @@ const menus: IMenu[] = [
 
 @keyframes customAnimation2 {
   15% {
-    top: 25%;
+    top: 20%;
   }
   100% {
-    top: 20%;
+    top: 25%;
   }
 }
 
