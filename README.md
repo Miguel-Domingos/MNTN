@@ -31,3 +31,6 @@ npm run lint
 ## Features tested
 
 - [scroll-timeline](https://developer.mozilla.org/en-US/docs/Web/CSS/scroll-timeline)
+
+# Important None
+**scroll-timeline is not Baseline (stable) because it does not work in some of the most widely-used browsers, such as safari and firefox**
