@@ -141,7 +141,7 @@ const menus: IMenu[] = [
       ></div>
     </div>
 
-    <main class="w-full flex flex-col px-4 relative z-50 gap-48 lg:gap-64 my-40">
+    <main class="w-full bg-[#0b1d26] flex flex-col px-4 relative z-50 gap-48 lg:gap-64 my-40">
       <div
         class="flex flex-col-reverse items-center lg:items-start justify-between lg:gap-20 lg:flex-row mx-10 lg:mx-20"
       >
@@ -268,42 +268,44 @@ const menus: IMenu[] = [
         </div>
       </div>
     </main>
-    <footer class="w-full container mx-auto px-4 pb-32">
-      <div
-        class="w-full flex justify-between md:flex-row flex-col gap-16 items-center text-center md:text-left md:items-start"
-      >
-        <div class="flex h-full flex-col justify-between md:gap-8">
-          <div class="flex flex-col gap-6 items-center md:items-start">
-            <img src="./assets/logo.svg" alt="" srcset="" />
-            <span class="text-white font-bold"
-              >Get out there & discover your next <br />
-              slope, mountain & destination!</span
-            >
-          </div>
-          <div>
-            <span class="text-white hidden md:block text-sm font-light opacity-50">
-              Copyright 2023 MNTN, Inc. Terms & Privacy
-            </span>
-          </div>
-        </div>
-
+    <footer class="w-full bg-[#0b1d26]">
+      <div class="w-full bg-[#0b1d26] container mx-auto px-4 pb-32">
         <div
-          class="flex gap-16 lg:gap-28 md:flex-row flex-col items-center text-center md:text-left md:items-start"
+          class="w-full flex justify-between md:flex-row flex-col gap-16 items-center text-center md:text-left md:items-start"
         >
-          <div v-for="menu in menus" :key="menu.title" class="flex flex-col gap-6">
-            <span class="text-[#FBD784] text-lg font-bold">{{ menu.title }}</span>
-
-            <div class="flex flex-col gap-4">
-              <span v-for="link in menu.links" :key="link.label" class="text-white">{{
-                link.label
-              }}</span>
+          <div class="flex h-full flex-col justify-between md:gap-8">
+            <div class="flex flex-col gap-6 items-center md:items-start">
+              <img src="./assets/logo.svg" alt="" srcset="" />
+              <span class="text-white font-bold"
+                >Get out there & discover your next <br />
+                slope, mountain & destination!</span
+              >
+            </div>
+            <div>
+              <span class="text-white hidden md:block text-sm font-light opacity-50">
+                Copyright 2023 MNTN, Inc. Terms & Privacy
+              </span>
             </div>
           </div>
-        </div>
 
-        <span class="text-white block md:hidden text-sm text-center font-light opacity-50">
-          Copyright 2023 MNTN, Inc. Terms & Privacy
-        </span>
+          <div
+            class="flex gap-16 lg:gap-28 md:flex-row flex-col items-center text-center md:text-left md:items-start"
+          >
+            <div v-for="menu in menus" :key="menu.title" class="flex flex-col gap-6">
+              <span class="text-[#FBD784] text-lg font-bold">{{ menu.title }}</span>
+
+              <div class="flex flex-col gap-4">
+                <span v-for="link in menu.links" :key="link.label" class="text-white">{{
+                  link.label
+                }}</span>
+              </div>
+            </div>
+          </div>
+
+          <span class="text-white block md:hidden text-sm text-center font-light opacity-50">
+            Copyright 2023 MNTN, Inc. Terms & Privacy
+          </span>
+        </div>
       </div>
     </footer>
   </div>
